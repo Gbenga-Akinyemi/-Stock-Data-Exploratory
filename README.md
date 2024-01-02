@@ -1,4 +1,4 @@
-[descriptive_statistics.txt](https://github.com/Gbenga-Akinyemi/-Stock-Data-Exploratory/files/13812664/descriptive_statistics.txt)# Stock Performance(AFRM, APP and RIOT) :  Exploring the Descriptives 
+# Stock Performance(AFRM, APP and RIOT) :  Exploring the Descriptives 
 ## Introduction
 This project is focused on analyzing the stock performance of three(3) high-performing stocks, using a 1(one)  year-long daily  stock market performance. The data set includes date, variables for opening stock price, highest stock sales price per day, lowest stock sales price per day, and closing sales price for the day. The data set  includes AFRM, APP and RIOT data set.  AFRM is a  tech stock. It is a high-performing  business  globally known as Affirm Holdings, Inc. Riot Platforms, Inc. is a Blockchain Tech company, Riot Blockchain incorporated, with  proven years of record success. At the same time, AppLovin Corporation (APP) is a mobile technology company. It specializes in mobile app development, marketing, and monetization. 
 ## Objective: Analysis Objective 
@@ -47,12 +47,6 @@ for symbol in symbols:
 
 *### Descriptive Statistics* 
 Descriptive statistics offers key summary statistics for the businesses' stock market performance under the period of review, 1-year of daily stock market data.
-
-
-[descriptive_statistics.table.2.xlsx](https://github.com/Gbenga-Akinyemi/-Stock-Data-Exploratory/files/13812824/descriptive_statistics.table.2.xlsx)
-
-
-
 
 The objective of the analysis is to provide summaries and visualization snapshots that could highlight performance insights among the firms  
 

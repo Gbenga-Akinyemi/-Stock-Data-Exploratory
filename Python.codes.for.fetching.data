@@ -1,0 +1,29 @@
+import yfinance as yf
+import pandas as pd
+
+# Define the stock symbols for the companies of interest
+symbols = ['AFRM', 'APP', 'RIOT']
+
+# Specify the date range for the past month
+end_date = pd.to_datetime('today')
+start_date = end_date - pd.DateOffset(months=1)
+
+# Create dictionaries to store data for each stock
+stock_data = {}
+key_stats = {}
+
+# Fetch historical stock data and key financial ratios
+for symbol in symbols:
+    # Fetch historical stock data
+    stock_data[symbol] = yf.download(symbol, start=start_date, end=end_date)
+
+    # Fetch key financial ratios
+    key_stats[symbol] = yf.Ticker(symbol).info
+
+# Print or analyze the data as needed
+for symbol in symbols:
+    print(f"\nStock: {symbol}")
+    print("\nHistorical Stock Data:")
+    print(stock_data[symbol].head())
+
+   

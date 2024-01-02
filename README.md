@@ -85,5 +85,10 @@ This step analyzes performance return per firm and produces visualization to emp
 
 ![closing_prices_distribution_riot](https://github.com/Gbenga-Akinyemi/-Stock-Data-Exploratory/assets/102978818/c4cd49be-b844-4aba-ad10-4fca41095cec)
 
+## Reference 
+1. Python
+2. Python libraries: Yahoo Finance (finance)
+3. Python libraries: Pandas 
+4. Bloomberg 
 
 
